@@ -49,6 +49,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		285E7C9E1FE6A460001AE9EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		285E7C9F1FE6A460001AE9EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		285E7CA01FE6A460001AE9EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA2AE7E11FE4FFC2008EFE54 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		285E7CA11FE6A480001AE9EF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		A63CEB76E6C96BE821B83D3A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +108,9 @@
 		CA08333C1FE4071A0047CDC5 /* DemoAPI */ = {
 			isa = PBXGroup;
 			children = (
-				CA2AE7E91FE4FFC2008EFE54 /* Utility */,
-				CA2AE7E31FE4FFC2008EFE54 /* Storyboard */,
+				285E7CA11FE6A480001AE9EF /* Utility */,
 				CA2AE7DD1FE4FFC2008EFE54 /* Source */,
+				CA2AE7E31FE4FFC2008EFE54 /* Storyboard */,
 				CA2AE7DB1FE4FFC2008EFE54 /* Resource */,
 			);
 			path = DemoAPI;
@@ -100,33 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				CA2AE7DE1FE4FFC2008EFE54 /* AppDelegate.swift */,
-				CA2AE7E11FE4FFC2008EFE54 /* ViewController.swift */,
-				CA2AE7DF1FE4FFC2008EFE54 /* Model */,
-				CA2AE7E01FE4FFC2008EFE54 /* View */,
-				CA2AE7E21FE4FFC2008EFE54 /* ViewModel */,
+				285E7C9F1FE6A460001AE9EF /* Model */,
+				285E7CA01FE6A460001AE9EF /* View */,
+				285E7C9E1FE6A460001AE9EF /* ViewModel */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		CA2AE7DF1FE4FFC2008EFE54 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CA2AE7E01FE4FFC2008EFE54 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CA2AE7E21FE4FFC2008EFE54 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		CA2AE7E31FE4FFC2008EFE54 /* Storyboard */ = {
@@ -136,13 +143,6 @@
 				CA2AE7E71FE4FFC2008EFE54 /* Main.storyboard */,
 			);
 			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		CA2AE7E91FE4FFC2008EFE54 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
