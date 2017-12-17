@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285E7CA31FE6AC2C001AE9EF /* DAHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CA21FE6AC2C001AE9EF /* DAHomeVC.swift */; };
+		285E7CA51FE6AC82001AE9EF /* DAHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CA41FE6AC82001AE9EF /* DAHomeViewModel.swift */; };
+		285E7CA71FE6ACAF001AE9EF /* DAHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CA61FE6ACAF001AE9EF /* DAHomeModel.swift */; };
+		285E7CA91FE6B0E7001AE9EF /* DALoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CA81FE6B0E7001AE9EF /* DALoginVC.swift */; };
+		285E7CAB1FE6B153001AE9EF /* DAHomeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CAA1FE6B153001AE9EF /* DAHomeDetailVC.swift */; };
+		285E7CAD1FE6BEE6001AE9EF /* DANetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CAC1FE6BEE6001AE9EF /* DANetworkManager.swift */; };
+		285E7CAF1FE6C2BD001AE9EF /* DASwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CAE1FE6C2BD001AE9EF /* DASwiftLoader.swift */; };
+		285E7CB11FE6C41C001AE9EF /* DASwiftAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E7CB01FE6C41C001AE9EF /* DASwiftAlert.swift */; };
 		CA2AE7EA1FE4FFC2008EFE54 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA2AE7DC1FE4FFC2008EFE54 /* Info.plist */; };
 		CA2AE7EB1FE4FFC2008EFE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AE7DE1FE4FFC2008EFE54 /* AppDelegate.swift */; };
-		CA2AE7EC1FE4FFC2008EFE54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AE7E11FE4FFC2008EFE54 /* ViewController.swift */; };
 		CA2AE7EE1FE4FFC2008EFE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2AE7E51FE4FFC2008EFE54 /* LaunchScreen.storyboard */; };
 		CA2AE7EF1FE4FFC2008EFE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2AE7E71FE4FFC2008EFE54 /* Main.storyboard */; };
 		CA2AE7F11FE4FFEE008EFE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2AE7F01FE4FFEE008EFE54 /* Assets.xcassets */; };
@@ -17,11 +24,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		285E7CA21FE6AC2C001AE9EF /* DAHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAHomeVC.swift; sourceTree = "<group>"; };
+		285E7CA41FE6AC82001AE9EF /* DAHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAHomeViewModel.swift; sourceTree = "<group>"; };
+		285E7CA61FE6ACAF001AE9EF /* DAHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAHomeModel.swift; sourceTree = "<group>"; };
+		285E7CA81FE6B0E7001AE9EF /* DALoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DALoginVC.swift; sourceTree = "<group>"; };
+		285E7CAA1FE6B153001AE9EF /* DAHomeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAHomeDetailVC.swift; sourceTree = "<group>"; };
+		285E7CAC1FE6BEE6001AE9EF /* DANetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DANetworkManager.swift; sourceTree = "<group>"; };
+		285E7CAE1FE6C2BD001AE9EF /* DASwiftLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DASwiftLoader.swift; sourceTree = "<group>"; };
+		285E7CB01FE6C41C001AE9EF /* DASwiftAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DASwiftAlert.swift; sourceTree = "<group>"; };
 		677EE39B31019DF1099F019C /* Pods_DemoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA08333A1FE4071A0047CDC5 /* DemoAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2AE7DC1FE4FFC2008EFE54 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA2AE7DE1FE4FFC2008EFE54 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA2AE7E11FE4FFC2008EFE54 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA2AE7E61FE4FFC2008EFE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2AE7E81FE4FFC2008EFE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA2AE7F01FE4FFEE008EFE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +66,7 @@
 		285E7C9E1FE6A460001AE9EF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				285E7CA41FE6AC82001AE9EF /* DAHomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -59,6 +74,7 @@
 		285E7C9F1FE6A460001AE9EF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				285E7CA61FE6ACAF001AE9EF /* DAHomeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -66,7 +82,9 @@
 		285E7CA01FE6A460001AE9EF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CA2AE7E11FE4FFC2008EFE54 /* ViewController.swift */,
+				285E7CA81FE6B0E7001AE9EF /* DALoginVC.swift */,
+				285E7CA21FE6AC2C001AE9EF /* DAHomeVC.swift */,
+				285E7CAA1FE6B153001AE9EF /* DAHomeDetailVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -74,6 +92,9 @@
 		285E7CA11FE6A480001AE9EF /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				285E7CAC1FE6BEE6001AE9EF /* DANetworkManager.swift */,
+				285E7CAE1FE6C2BD001AE9EF /* DASwiftLoader.swift */,
+				285E7CB01FE6C41C001AE9EF /* DASwiftAlert.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -279,8 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA2AE7EC1FE4FFC2008EFE54 /* ViewController.swift in Sources */,
+				285E7CB11FE6C41C001AE9EF /* DASwiftAlert.swift in Sources */,
+				285E7CA51FE6AC82001AE9EF /* DAHomeViewModel.swift in Sources */,
+				285E7CA31FE6AC2C001AE9EF /* DAHomeVC.swift in Sources */,
+				285E7CAD1FE6BEE6001AE9EF /* DANetworkManager.swift in Sources */,
+				285E7CA91FE6B0E7001AE9EF /* DALoginVC.swift in Sources */,
+				285E7CAB1FE6B153001AE9EF /* DAHomeDetailVC.swift in Sources */,
 				CA2AE7EB1FE4FFC2008EFE54 /* AppDelegate.swift in Sources */,
+				285E7CA71FE6ACAF001AE9EF /* DAHomeModel.swift in Sources */,
+				285E7CAF1FE6C2BD001AE9EF /* DASwiftLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
